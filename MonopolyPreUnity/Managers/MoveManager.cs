@@ -1,4 +1,4 @@
-﻿using MonopolyPreUnity.Classes;
+﻿ using MonopolyPreUnity.Classes;
 using MonopolyPreUnity.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -10,6 +10,11 @@ namespace MonopolyPreUnity.Managers
     {
         LinkedList<Tile> Map { get; set; }
         public Tile MoveTile(Tile tileStart, int dice)
+        {
+            throw new NotImplementedException();
+        }
+
+        private int ThrowDice()
         {
             throw new NotImplementedException();
         }
